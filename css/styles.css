@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/textura.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+h1{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    color: rgb(92, 92, 92);
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.principal{
+    max-width: 400px;
+    min-width: 300px;
+    width: 95%;
+    margin: 50px auto;background-image: url(../img/nota.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}
+.dir{
+    width: 80%;
+    padding: 0 auto;
+    margin: auto;
+}
+.dir span{
+    display: inline;
+    width: 70%;
+}
+.dir input[type = 'text']{
+    display: block;
+    width: 100%;
+    
+}
+
+.principal h3{
+    text-align: center;
+    color: indigo;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    padding-top: 35px;
+}
+.principal input[type='submit'],input[type='button']{
+    display: block;
+    width: 70%;
+    height: 30px;
+    margin: 5px auto 0 auto;
+    background-color: rgb(0, 98, 128);
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 1px 1px 1px rgb(72, 255, 0);
+    border-radius: 5px;
+}
+.principal input[type='submit']:hover, .principal input[type='button']:hover{
+    box-shadow: none;
+    background-color: rgb(0, 32, 75);
+    cursor: pointer;
+}
+.fcrear{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.fcrear h3{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.fcrear label, .fver label{
+    display: block;
+    margin-left: 10%;
+    color: grey;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fcrear input[type='text']:focus, .fver input[type='text']:focus{
+    border-bottom: 2px gray solid;
+}
+.fcrear input[type='text'], .fver input[type='text']{
+    display: block;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 15px;
+    color: rgb(14, 14, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.fcrear textarea{
+    display: block;
+    max-width: 85%;
+    min-width: 85%;
+    max-height: 200px;
+    min-height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    color: rgb(2, 0, 138);
+    outline: none;
+}
+.error{
+    color: red;
+    display: block;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+.fcrear span, .escoje, .fver span{
+    display: block;
+    color: rgb(114, 39, 39);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+    
+}
+.fcrear input[type='submit'], .fver input[type='submit']{
+    margin-bottom: 20px;
+    background-color: crimson;
+    box-shadow: none;
+}
+.fcrear input[type='submit']:hover,  .fver input[type='submit']:hover{
+    background-color: rgb(70, 7, 20);
+}
+.fver{
+    width: 100%;
+    display: block;
+    padding-bottom: 20px;
+}
+.verNota{
+    width: 80%;
+    padding: 10px;
+    color: rgb(41, 41, 41);
+    background-color: honeydew;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    border: 1px rgb(41, 41, 41) solid;
+    max-height: 200px;
+    overflow-y: scroll;
+}

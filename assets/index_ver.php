@@ -13,7 +13,7 @@
         <form action="index_ver.php" method="POST" class="fver">
             <h3>Ver una nota</h3>
             <label for="ver">Ingrese el nombre de la nota</label>
-            <input type="text" name="ver" id="ver" placeholder="Name My note Example.txt" require autofocus>
+            <input type="text" name="ver" id="ver" placeholder="Name My note Example" require autofocus>
             <div class="dir">
                 <span><input type="checkbox" name="activadirectorio[]" id="activadirectorio" onclick="myFun()"> En directorio especifico</span>
                 <input type="text" name="directorios" id="directorios" placeholder="My directory" disabled> 
